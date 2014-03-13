@@ -2,13 +2,12 @@
 li {
 	display:inline;
 	font-family:"Microsoft Yi Baiti";	
-	padding:100.000em 0.556em 0.000em 0.000em;
+	padding:0.000em 0.556em 0.000em 0.000em;
 	margin:0.000em;
 }
 ul {
 	float:right;
-	margin:0.000em;
-	padding:0.000em 1.000em 0.000em 3.000em;
+	margin-right: 5.000em;
 }
 nav {
 	position:fixed;
@@ -33,8 +32,9 @@ nav {
 	font-family:"Didot";
 	font-size:2.500em;
 	margin:0.000em;
-	padding:0.500em 20.000em 0.500em 0.778em;
+	padding:0.500em 18.000em 0.500em 0.778em;
 	float:left;
+	white-space:nowrap;
 }
 #welcome {
 	font-family:Didot;
