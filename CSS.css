@@ -82,6 +82,7 @@ table {
 	border: 0.111em solid black;
 	margin:0.556em;
 	transition: background-image 1s ease-in-out;
+	cursor: pointer;
 }
 #allstateHover:hover {
 	background:url(Images/Hover%20Image.jpg);
@@ -94,6 +95,7 @@ table {
 	border: 0.111em solid black;
 	margin:0.556em;
 	transition: background-image 1s ease-in-out;
+	cursor: pointer;
 }
 #beaumontHover {
 	background:url(Images/Beaumont_B&W.jpg);
@@ -103,6 +105,7 @@ table {
 	border: 0.111em solid black;
 	margin:0.556em;
 	transition: background-image 1s ease-in-out;
+	cursor: pointer;
 }
 #DSPHover {
 	background:url(Images/Delta%20Sigma%20Pi_B&W.jpg);
@@ -112,6 +115,7 @@ table {
 	border: 0.111em solid black;
 	margin:0.556em;
 	transition: background-image 1s ease-in-out;
+	cursor: pointer;
 }
 #resume {
 	font-family:Didot;
