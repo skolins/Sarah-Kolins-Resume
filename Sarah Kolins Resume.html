@@ -4,6 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="CSS.css" rel="stylesheet" type="text/css" />
 	<title>Sarah Kolins' Resume</title>
+<script src="jquery-1.11.0.min.js">
+</script>
 </head>
 
 <body>
@@ -11,9 +13,9 @@
 <nav>
 	<h4 id="header"><a class="navLinks" href="#welcomeBackground">Sarah Kolins</a></h4>
 	<ul>
-		<li><a class="navLinks" href="#workBackground">WORK</a></li>
-		<li><a class="navLinks" href="#resumeBackground">RESUME</a></li>
-		<li><a class="navLinks" href="#contactBackground">CONTACT</a></li>  
+		<li><a id="workLink" class="navLinks" href="#workBackground">WORK</a></li>
+		<li><a id="resumeLink" class="navLinks" href="#resumeBackground">RESUME</a></li>
+		<li><a id="contactLink" class="navLinks" href="#contactBackground">CONTACT</a></li>  
 	</ul>  
 </nav>   
         
@@ -61,6 +63,33 @@
 <!--Linkedin-->
 <div id="linkedin">
 	<a href="http://www.linkedin.com/pub/sarah-kolins/26/ba4/540"><img id="logo" src="Images/linkedin.png"/></a>
-</div>	                                                                            	
+</div>
+<script>
+var workPosition = $('#workBackground').offset().top;
+var resumePosition = $('#resumeBackground').offset().top;
+var contactPosition = $('#contactBackground').offset().top;
+
+$(document).ready(function(){
+		  $(window).scroll(function(){
+				  var height = $(window).scrollTop();
+
+				  if(height > contactPosition) {
+					$("#workLink").css("color","black");
+					$("#resumeLink").css("color","black");
+					$("#contactLink").css("color","#FF0099");
+				  } else if(height > resumePosition) {
+					$("#workLink").css("color","black");
+					$("#resumeLink").css("color","#FF0099");
+					$("#contactLink").css("color","black");
+				  } else if(height > workPosition) {
+					$("#workLink").css("color","#FF0099");
+					$("#resumeLink").css("color","black");
+					$("#contactLink").css("color","black");
+				  }
+	      });
+});
+
+</script>
+                                                                       	
 </body>
 </html>
