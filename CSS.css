@@ -1,237 +1,247 @@
 @charset "UTF-8";
 li {
-	display:inline;
-	font-family:"Microsoft Yi Baiti";	
-	padding:0.000em 0.556em 0.000em 0.000em;
-	margin:0.000em;
+    display:inline;
+    font-family:"Microsoft Yi Baiti";   
+    padding:0.000em 0.556em 0.000em 0.000em;
+    margin:0.000em;
 }
 ul {
-	float:right;
-	margin-right: 5.000em;
+    float:right;
+    margin-right: 5.000em;
 }
 nav {
-	position:fixed;
-	top:0.000em;
-	height:5.500em;
-	width:83.000em;
-	background:rgba(255,255,255,.7);
+    position:fixed;
+    top:0.000em;
+    height:5.500em;
+    width:83.000em;
+    background:rgba(255,255,255,.7);
 }
 .navLinks:link {
-	color:black;text-decoration:none; 
+    color:black;text-decoration:none; 
 }
 .navLinks:active {
-	color:#FF0099;text-decoration:none;
+    color:#FF0099;text-decoration:none;
 }
 .navLinks:visited {
-	color:black;text-decoration:none; 
+    color:black;text-decoration:none; 
 }
 .navLinks:hover {
-	color:#FF0099;text-decoration:none; 
+    color:#FF0099;text-decoration:none; 
 }
 #header {
-	font-family:"Didot";
-	font-size:2.500em;
-	margin:0.000em;
-	padding:0.500em 18.000em 0.500em 0.778em;
-	float:left;
-	white-space:nowrap;
+    font-family:"Didot";
+    font-size:2.500em;
+    margin:0.000em;
+    padding:0.500em 18.000em 0.500em 0.778em;
+    float:left;
+    white-space:nowrap;
 }
 #welcome {
-	font-family:Didot;
-	font-size:8.333em;
-	text-align:center;
-	margin-bottom:0.111em;
-	margin-top:1.333em;
-	padding-bottom:0.000em;
+    font-family:Didot;
+    font-size:8.333em;
+    text-align:center;
+    margin-bottom:0.111em;
+    margin-top:1.333em;
+    padding-bottom:0.000em;
 }
 #intro {
-	font-family:"Microsoft Yi Baiti";
-	text-align:center;
-	font-size:1.944em;
-	margin-top:1.111em;
-	padding-top:0.000em;
+    font-family:"Microsoft Yi Baiti";
+    text-align:center;
+    font-size:1.944em;
+    margin-top:1.111em;
+    padding-top:0.000em;
 }
 #welcomeBackground {
-	padding:1.111em 0.000em 1.667em 0.000em;
+    padding:1.111em 0.000em 3.667em 0.000em;
 }
 p {
-	font-family: "Microsoft Yi Baiti";
-	text-align:center;
+    font-family: "Microsoft Yi Baiti";
+    text-align:center;
 }
-
+ 
 table {
-	margin:0 auto;
+    margin:0 auto;
 }
 #work {
-	font-family:Didot;
-	font-size:8.333em;
-	text-align:center;
-	margin:0.000em 0.000em 0.278em 0.000em;
-	padding:0.000em;
+    font-family:Didot;
+    font-size:8.333em;
+    text-align:center;
+    margin:0.000em 0.000em 0.278em 0.000em;
+    padding:0.000em;
 }
 #workBackground {
-	background:#F0F0F0;
-	padding:5.000em 0.000em 2.778em 0.000em;
-	margin:0.000em;
+    background:#F0F0F0;
+    padding:5.000em 0.000em 2.778em 0.000em;
+    margin:0.000em;
 }
 #allstateHover {
-	background:url(Images/Allstate_B&W.jpg);
-	height:16.667em;
-	width:19.444em;
-	padding:0.833em;
-	border: 0.111em solid black;
-	margin:0.556em;
-	transition: background-image 1s ease-in-out;
-	cursor: pointer;
+    background:url(Images/Allstate_B&W.jpg);
+    height:16.667em;
+    width:19.444em;
+    padding:0.833em;
+    border: 0.111em solid black;
+    margin:0.556em;
+    transition: background-image 1s ease-in-out;
+    cursor: pointer;
 }
 #allstateHover:hover {
-	background:url(Images/Hover%20Image.jpg);
+    background:url(Images/Allstate_Hover.jpg);
 }
 #kohlsHover {
-	background:url(Images/Kohls_B&W.jpg);
-	height:16.667em;
-	width:19.444em;
-	padding:0.833em;
-	border: 0.111em solid black;
-	margin:0.556em;
-	transition: background-image 1s ease-in-out;
-	cursor: pointer;
+    background:url(Images/Kohls_B&W.jpg);
+    height:16.667em;
+    width:19.444em;
+    padding:0.833em;
+    border: 0.111em solid black;
+    margin:0.556em;
+    transition: background-image 1s ease-in-out;
+    cursor: pointer;
+}
+#kohlsHover:hover {
+    background:url(Images/Kohls_Hover.jpg);
 }
 #beaumontHover {
-	background:url(Images/Beaumont_B&W.jpg);
-	height:16.667em;
-	width:19.444em;
-	padding:0.833em;
-	border: 0.111em solid black;
-	margin:0.556em;
-	transition: background-image 1s ease-in-out;
-	cursor: pointer;
+    background:url(Images/Beaumont_B&W.jpg);
+    height:16.667em;
+    width:19.444em;
+    padding:0.833em;
+    border: 0.111em solid black;
+    margin:0.556em;
+    transition: background-image 1s ease-in-out;
+    cursor: pointer;
+}
+#beaumontHover:hover {
+    background:url(Images/Beaumont_Hover.jpg);
 }
 #DSPHover {
-	background:url(Images/Delta%20Sigma%20Pi_B&W.jpg);
-	height:16.667em;
-	width:19.444em;
-	padding:0.833em;
-	border: 0.111em solid black;
-	margin:0.556em;
-	transition: background-image 1s ease-in-out;
-	cursor: pointer;
+    background:url(Images/Delta%20Sigma%20Pi_B&W.jpg);
+    height:16.667em;
+    width:19.444em;
+    padding:0.833em;
+    border: 0.111em solid black;
+    margin:0.556em;
+    transition: background-image 1s ease-in-out;
+    cursor: pointer;
+}
+#DSPHover:hover {
+    background:url(Images/Delta%20Sigma%20Pi_Hover.jpg);
 }
 #resume {
-	font-family:Didot;
-	font-size:8.333em;
-	text-align:center;
-	color:white;
-	margin:0.000em 0.000em 0.278em 0.000em;
-	padding:0.000em;
+    font-family:Didot;
+    font-size:8.333em;
+    text-align:center;
+    color:white;
+    margin:0.000em 0.000em 0.278em 0.000em;
+    padding:0.000em;
 }
 #resumeBackground {
-	background:black;
-	margin:0.000em;
-	padding:5.000em 0.000em 2.778em 0.000em;
+    background:black;
+    margin:0.000em;
+    padding:5.000em 0.000em 3.778em 0.000em;
 }
 #resumeImg {
-	height:50.000em;
-	width:38.889em;	
-	border:none;
-	padding:0.000em;
-	display: block;
-	margin:0 auto;
+    height:50.000em;
+    width:38.889em; 
+    border:none;
+    padding:0.000em 0.000em 2.000em 0.000em;
+    display: block;
+    margin:0 auto;
 }
 input[type="text"] {
-	display: block;
-	margin:0 auto;
-	height:1.556em;
-	width:13.333em;
-	box-shadow: none;
-	border-color: transparent;
+    display: block;
+    margin:0 auto;
+    height:1.556em;
+    width:13.333em;
+    box-shadow: none;
+    border-color: transparent;
 }
 input[type="email"] {
-	display: block;
-	margin:0 auto;
-	height:1.556em;
-	width:13.333em;
-	box-shadow: none;
-	border-color: transparent;
+    display: block;
+    margin:0 auto;
+    height:1.556em;
+    width:13.333em;
+    box-shadow: none;
+    border-color: transparent;
 }
 #button {
-	display: block;
-	margin:0 auto;
+    display: block;
+    margin:0 auto;
     background: #000000;
-	color:white;
-	box-shadow: none;
-	border-color: transparent;
-	font-family:"Microsoft Yi Baiti";
-	height:2.222em;
-	width:13.889em;
-	margin-top:2.111em;
-	margin-bottom:2.222em;
-	font-size:0.944em;
+    color:white;
+    box-shadow: none;
+    border-color: transparent;
+    font-family:"Microsoft Yi Baiti";
+    height:2.222em;
+    width:13.889em;
+    margin-top:3.111em;
+    margin-bottom:2.222em;
+    font-size:0.944em;
 }
 #button:hover {
-	background:#FF0099;
+    background:#FF0099;
 }
 #contact {
-	font-family:Didot;
-	font-size:8.333em;
-	text-align:center;	
-	margin:0.000em 0.000em 0.278em 0.000em;
-	padding:0.000em;
+    font-family:Didot;
+    font-size:8.333em;
+    text-align:center;  
+    margin:0.000em 0.000em 0.555em 0.000em;
+    padding:0.000em;
 }
 .contactInfo {
-	font-size:1.300em;
+    font-size:1.300em;
+    padding: 0.500em 0.000em 0.500em 0.000em;
 }
 #contactBackground {
-	background:#E8E8E8;
-	margin:0.000em;
-	padding:4.444em 0.000em 1.667em 0.000em;
+    background:#E8E8E8;
+    margin:0.000em;
+    padding:4.444em 0.000em 1.667em 0.000em;
 }
 #linkedin {
-	background:#007bb6;
+    background:#007bb6;
 }
 #logo {
-	height:2.222em;
-	width:2.222em;
-	border:0.000em;
-	padding:0.000em;
-	margin:0 auto;
-	display: block;
+    height:2.222em;
+    width:2.222em;
+    border:0.000em;
+    padding:0.000em;
+    margin:0 auto;
+    display: block;
 }
 #logo:hover {
-	background:#007bb6;
+    background:#007bb6;
 }
 .subpageHeadings {
-	font-family:Didot;
-	font-size:8.333em;
-	text-align:center;
-	margin-bottom:0.111em;
-	margin-top:1.333em;
-	padding-bottom:0.000em;
+    font-family:Didot;
+    font-size:8.333em;
+    text-align:center;
+    margin-bottom:0.111em;
+    margin-top:1.333em;
+    padding-bottom:0.000em;
 }
 .subpageText {
-	font-family:"Microsoft Yi Baiti";
-	text-align:center;
-	font-size:1.000em;
-	margin-top:1.111em;
-	padding-top:0.000em;
-	padding-bottom:0.000em;
+    font-family:"Microsoft Yi Baiti";
+    text-align:center;
+    font-size:1.000em;
+    margin-top:1.111em;
+    padding-top:0.000em;
+    padding-bottom:0.000em;
 }
 .leftArrow {
-	float:left;
-	padding:0.000em 16.000em 2.000em 0.000em;
+    float:left;
+    padding:0.000em 16.000em 2.000em 0.000em;
 }
 .dots {
-	font-size:3.889em;
-	font-family:Didot;
-	padding:0.000em;
-	margin:0.000em 0.000em 1.000em 0.000em;	
+    font-size:3.889em;
+    font-family:Didot;
+    padding:0.000em;
+    margin:0.000em 0.000em 1.000em 0.000em; 
 }
 .rightArrow {
-	float:right;
-	padding:0.000em 0.000em 2.000em 16.000em;
+    float:right;
+    padding:0.000em 0.000em 2.000em 16.000em;
 }
 .subpageImgs {
-	display:block;
-	margin:0 auto;
-	padding-bottom:2.222em;
+    display:block;
+    margin:0 auto;
+    padding-bottom:2.222em;
 }
